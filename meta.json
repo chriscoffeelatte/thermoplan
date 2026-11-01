@@ -1,0 +1,19 @@
+{
+    "ApplicationVersion": "1.15",
+    "CreationTimestamp": "2026-10-05T09:41:29Z",
+    "Files": [
+        {
+            "file": "ProductSettings.json",
+            "hash": "3d000dec78e1a78aeeb9049cf5673432880faeb28c6df6886bd9fbd4ac2e12cf"
+        },
+        {
+            "file": "ProductViews.json",
+            "hash": "faee666fb5adc565835f85f0da8b4ea99f33b00db34de55f34b63febcbc274df"
+        },
+        {
+            "file": "Products.json",
+            "hash": "959355a702482692d8168d51310fa7bf6a6af22e227748fc93ff6b0e012f62c9"
+        }
+    ],
+    "SerialNumber": "200147531"
+}

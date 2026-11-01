@@ -1,0 +1,1085 @@
+[
+	{
+		"Adjustments": {
+			"CoffeeAmountAdjustment": 1.0,
+			"CoffeeWaterAdjustment": 1.0,
+			"MilkAmountAdjustment": 1.0,
+			"MilkFoamAdjustment": 1.0,
+			"MilkProductDurationAdjustment": 1.0,
+			"WaterAmountAdjustment": 1.0
+		},
+		"Category": "Cappuccino (Time Optimized)",
+		"CupType": "cup0",
+		"ID": "Cappuccino (Time Optimized)_2",
+		"IconPath": "icon_cappuccino.svg",
+		"Ingredients": {
+			"Coffee": {
+				"CoffeeAmountsGrams": [
+					13.0
+				],
+				"GrinderIndices": [
+					0
+				],
+				"IsqTargetExtractionTimeSeconds": 0.0,
+				"IsqTargetPuckThicknessMillimeters": 0.0,
+				"MaxExtractionTimeSeconds": 13.0,
+				"MaxValidExtractionTimeSeconds": 3600.0,
+				"MinValidExtractionTimeSeconds": -1.0,
+				"Module": "",
+				"NumBrewCycles": 1,
+				"PostPressMillimeters": 0.5,
+				"PreBrewMilliliters": 5.0,
+				"PressFactor": 1.0,
+				"RelaxTimeSeconds": 0.5,
+				"TargetTemperatureDegreesCelsius": -1.0,
+				"TotalAmountMilliliters": 70.0,
+				"Type": "IngredientParametersCoffee",
+				"UseExpansionChamber": false,
+				"UseForISQ": false
+			},
+			"IngredientParametersRinseCoffeeModule": {
+				"Module": "CoffeeModule",
+				"RinseMode": "PreHeat",
+				"Type": "IngredientParametersRinse"
+			},
+			"Milk": {
+				"AirAmounts": [
+					0.0,
+					1.0
+				],
+				"Module": "",
+				"ProductDurationsSeconds": [
+					2.0,
+					8.0
+				],
+				"Temperatures": [
+					70.0,
+					70.0
+				],
+				"Type": "IngredientParametersMilk"
+			}
+		},
+		"IsLocalTemperatureUsed": false,
+		"MilkQualities": [
+		],
+		"Name": "Cappuccino.",
+		"PaymentInfo": {
+			"ArticleNo": 14,
+			"Price": 0.0
+		}
+	},
+	{
+		"Adjustments": {
+			"CoffeeAmountAdjustment": 1.0,
+			"CoffeeWaterAdjustment": 1.0,
+			"MilkAmountAdjustment": 1.0,
+			"MilkFoamAdjustment": 1.0,
+			"MilkProductDurationAdjustment": 1.0,
+			"WaterAmountAdjustment": 1.0
+		},
+		"Category": "Coffee",
+		"CupType": "cup0",
+		"ID": "Coffee_1",
+		"IconPath": "icon_coffee.svg",
+		"Ingredients": {
+			"AutoOutletMove": {
+				"CupHeightMillimeters": 0,
+				"CupIdentifier": "cup0",
+				"Module": "AutoOutlet",
+				"Type": "IngredientParametersAutoOutlet"
+			},
+			"Coffee": {
+				"CoffeeAmountsGrams": [
+					10.5
+				],
+				"GrinderIndices": [
+					1
+				],
+				"IsqTargetExtractionTimeSeconds": 0.0,
+				"IsqTargetPuckThicknessMillimeters": 0.0,
+				"MaxExtractionTimeSeconds": -1.0,
+				"MaxValidExtractionTimeSeconds": 3600.0,
+				"MinValidExtractionTimeSeconds": -1.0,
+				"Module": "CoffeeModule",
+				"NumBrewCycles": 1,
+				"PostPressMillimeters": 1.0,
+				"PreBrewMilliliters": 3.0,
+				"PressFactor": 1.0,
+				"RelaxTimeSeconds": 1.5,
+				"TargetTemperatureDegreesCelsius": -1.0,
+				"TotalAmountMilliliters": 180.0,
+				"Type": "IngredientParametersCoffee",
+				"UseExpansionChamber": false,
+				"UseForISQ": false
+			}
+		},
+		"IsLocalTemperatureUsed": false,
+		"MilkQualities": [
+		],
+		"Name": "Kaffee Crema Klein",
+		"PaymentInfo": {
+			"ArticleNo": 4,
+			"Price": 0.0
+		}
+	},
+	{
+		"Adjustments": {
+			"CoffeeAmountAdjustment": 1.0,
+			"CoffeeWaterAdjustment": 1.0,
+			"MilkAmountAdjustment": 1.0,
+			"MilkFoamAdjustment": 1.0,
+			"MilkProductDurationAdjustment": 1.0,
+			"WaterAmountAdjustment": 1.0
+		},
+		"Category": "Coffee",
+		"CupType": "cup0",
+		"ID": "Coffee_2",
+		"IconPath": "icon_coffee.svg",
+		"Ingredients": {
+			"AutoOutletMove": {
+				"CupHeightMillimeters": 0,
+				"CupIdentifier": "cup0",
+				"Module": "AutoOutlet",
+				"Type": "IngredientParametersAutoOutlet"
+			},
+			"Coffee": {
+				"CoffeeAmountsGrams": [
+					12.0
+				],
+				"GrinderIndices": [
+					1
+				],
+				"IsqTargetExtractionTimeSeconds": 0.0,
+				"IsqTargetPuckThicknessMillimeters": 0.0,
+				"MaxExtractionTimeSeconds": -1.0,
+				"MaxValidExtractionTimeSeconds": 3600.0,
+				"MinValidExtractionTimeSeconds": -1.0,
+				"Module": "CoffeeModule",
+				"NumBrewCycles": 1,
+				"PostPressMillimeters": 2.5,
+				"PreBrewMilliliters": 1.0,
+				"PressFactor": 1.0,
+				"RelaxTimeSeconds": 1.0,
+				"TargetTemperatureDegreesCelsius": -1.0,
+				"TotalAmountMilliliters": 170.0,
+				"Type": "IngredientParametersCoffee",
+				"UseExpansionChamber": false,
+				"UseForISQ": false
+			}
+		},
+		"IsLocalTemperatureUsed": false,
+		"MilkQualities": [
+		],
+		"Name": "Kaffee Crema.",
+		"PaymentInfo": {
+			"ArticleNo": 5,
+			"Price": 0.0
+		}
+	},
+	{
+		"Adjustments": {
+			"CoffeeAmountAdjustment": 1.0,
+			"CoffeeWaterAdjustment": 1.0,
+			"MilkAmountAdjustment": 1.0,
+			"MilkFoamAdjustment": 1.0,
+			"MilkProductDurationAdjustment": 1.0,
+			"WaterAmountAdjustment": 1.0
+		},
+		"Category": "Espresso Macchiato",
+		"CupType": "cup0",
+		"ID": "Espresso Macchiato_1",
+		"IconPath": "icon_espresso_macchiato.svg",
+		"Ingredients": {
+			"AutoOutletMove": {
+				"CupHeightMillimeters": 0,
+				"CupIdentifier": "cup0",
+				"Module": "AutoOutlet",
+				"Type": "IngredientParametersAutoOutlet"
+			},
+			"Coffee": {
+				"CoffeeAmountsGrams": [
+					10.0
+				],
+				"GrinderIndices": [
+					0
+				],
+				"IsqTargetExtractionTimeSeconds": 0.0,
+				"IsqTargetPuckThicknessMillimeters": 0.0,
+				"MaxExtractionTimeSeconds": -1.0,
+				"MaxValidExtractionTimeSeconds": 3600.0,
+				"MinValidExtractionTimeSeconds": -1.0,
+				"Module": "CoffeeModule",
+				"NumBrewCycles": 1,
+				"PostPressMillimeters": 2.5,
+				"PreBrewMilliliters": 5.0,
+				"PressFactor": 1.29999995232,
+				"RelaxTimeSeconds": 2.0,
+				"TargetTemperatureDegreesCelsius": -1.0,
+				"TotalAmountMilliliters": 40.0,
+				"Type": "IngredientParametersCoffee",
+				"UseExpansionChamber": false,
+				"UseForISQ": false
+			},
+			"Milk": {
+				"AirAmounts": [
+					0.0,
+					1.0
+				],
+				"Module": "MilkModule",
+				"ProductDurationsSeconds": [
+					0.0,
+					2.0
+				],
+				"PureFoam": true,
+				"Temperatures": [
+					70.0,
+					70.0
+				],
+				"Type": "IngredientParametersMilk"
+			}
+		},
+		"IsLocalTemperatureUsed": false,
+		"MilkQualities": [
+		],
+		"Name": "Espresso Macchiato",
+		"PaymentInfo": {
+			"ArticleNo": 6,
+			"Price": 0.0
+		}
+	},
+	{
+		"Adjustments": {
+			"CoffeeAmountAdjustment": 1.0,
+			"CoffeeWaterAdjustment": 1.0,
+			"MilkAmountAdjustment": 1.0,
+			"MilkFoamAdjustment": 1.0,
+			"MilkProductDurationAdjustment": 1.0,
+			"WaterAmountAdjustment": 1.0
+		},
+		"Category": "Espresso",
+		"CupType": "cup0",
+		"ID": "Espresso_1",
+		"IconPath": "icon_espresso.svg",
+		"Ingredients": {
+			"AutoOutletMove": {
+				"CupHeightMillimeters": 0,
+				"CupIdentifier": "cup0",
+				"Module": "AutoOutlet",
+				"Type": "IngredientParametersAutoOutlet"
+			},
+			"Coffee": {
+				"CoffeeAmountsGrams": [
+					9.5
+				],
+				"GrinderIndices": [
+					0
+				],
+				"IsqTargetExtractionTimeSeconds": 0.0,
+				"IsqTargetPuckThicknessMillimeters": 0.0,
+				"MaxExtractionTimeSeconds": -1.0,
+				"MaxValidExtractionTimeSeconds": 3600.0,
+				"MinValidExtractionTimeSeconds": -1.0,
+				"Module": "CoffeeModule",
+				"NumBrewCycles": 1,
+				"PostPressMillimeters": 5.0,
+				"PreBrewMilliliters": 1.0,
+				"PressFactor": 1.0,
+				"RelaxTimeSeconds": 5.0,
+				"TargetTemperatureDegreesCelsius": -1.0,
+				"TotalAmountMilliliters": 50.0,
+				"Type": "IngredientParametersCoffee",
+				"UseExpansionChamber": false,
+				"UseForISQ": false
+			}
+		},
+		"IsLocalTemperatureUsed": false,
+		"MilkQualities": [
+		],
+		"Name": "Espresso",
+		"PaymentInfo": {
+			"ArticleNo": 7,
+			"Price": 0.0
+		}
+	},
+	{
+		"Adjustments": {
+			"CoffeeAmountAdjustment": 1.0,
+			"CoffeeWaterAdjustment": 1.0,
+			"MilkAmountAdjustment": 1.0,
+			"MilkFoamAdjustment": 1.0,
+			"MilkProductDurationAdjustment": 1.0,
+			"WaterAmountAdjustment": 1.0
+		},
+		"Category": "Espresso",
+		"CupType": "cup0",
+		"ID": "Espresso_2",
+		"IconPath": "icon_2_espresso.svg",
+		"Ingredients": {
+			"AutoOutletMove": {
+				"CupHeightMillimeters": 0,
+				"CupIdentifier": "cup0",
+				"Module": "AutoOutlet",
+				"Type": "IngredientParametersAutoOutlet"
+			},
+			"Coffee": {
+				"CoffeeAmountsGrams": [
+					14.5
+				],
+				"GrinderIndices": [
+					0
+				],
+				"IsqTargetExtractionTimeSeconds": 0.0,
+				"IsqTargetPuckThicknessMillimeters": 0.0,
+				"MaxExtractionTimeSeconds": -1.0,
+				"MaxValidExtractionTimeSeconds": 3600.0,
+				"MinValidExtractionTimeSeconds": -1.0,
+				"Module": "CoffeeModule",
+				"NumBrewCycles": 1,
+				"PostPressMillimeters": 5.0,
+				"PreBrewMilliliters": 0.0,
+				"PressFactor": 1.0,
+				"RelaxTimeSeconds": 3.0,
+				"TargetTemperatureDegreesCelsius": -1.0,
+				"TotalAmountMilliliters": 80.0,
+				"Type": "IngredientParametersCoffee",
+				"UseExpansionChamber": false,
+				"UseForISQ": false
+			}
+		},
+		"IsLocalTemperatureUsed": false,
+		"MilkQualities": [
+		],
+		"Name": "2x Espresso",
+		"PaymentInfo": {
+			"ArticleNo": 8,
+			"Price": 0.0
+		}
+	},
+	{
+		"Adjustments": {
+			"CoffeeAmountAdjustment": 1.0,
+			"CoffeeWaterAdjustment": 1.0,
+			"MilkAmountAdjustment": 1.0,
+			"MilkFoamAdjustment": 1.0,
+			"MilkProductDurationAdjustment": 1.0,
+			"WaterAmountAdjustment": 1.0
+		},
+		"Category": "Latte Macchiato",
+		"CupType": "cup0",
+		"ID": "Latte Macchiato_1",
+		"IconPath": "icon_latte_macchiato.svg",
+		"Ingredients": {
+			"AutoOutletMove": {
+				"CupHeightMillimeters": 0,
+				"CupIdentifier": "cup0",
+				"Module": "AutoOutlet",
+				"Type": "IngredientParametersAutoOutlet"
+			},
+			"Coffee": {
+				"CoffeeAmountsGrams": [
+					10.0
+				],
+				"GrinderIndices": [
+					0
+				],
+				"IsqTargetExtractionTimeSeconds": 0.0,
+				"IsqTargetPuckThicknessMillimeters": 0.0,
+				"MaxExtractionTimeSeconds": -1.0,
+				"MaxValidExtractionTimeSeconds": 3600.0,
+				"MinValidExtractionTimeSeconds": -1.0,
+				"Module": "CoffeeModule",
+				"NumBrewCycles": 1,
+				"PostPressMillimeters": 0.0,
+				"PreBrewMilliliters": 0.0,
+				"PressFactor": 1.0,
+				"RelaxTimeSeconds": 0.0,
+				"TargetTemperatureDegreesCelsius": -1.0,
+				"TotalAmountMilliliters": 75.0,
+				"Type": "IngredientParametersCoffee",
+				"UseExpansionChamber": false,
+				"UseForISQ": false
+			},
+			"Milk": {
+				"AirAmounts": [
+					0.0,
+					1.0
+				],
+				"LatteMacchiatoWaitTimeIsValid": true,
+				"LatteMacchiatoWaitTimeSec": 5.0,
+				"Module": "MilkModule",
+				"ProductDurationsSeconds": [
+					13.0,
+					10.0
+				],
+				"Temperatures": [
+					70.0,
+					70.0
+				],
+				"Type": "IngredientParametersMilk"
+			}
+		},
+		"IsLocalTemperatureUsed": false,
+		"MilkQualities": [
+		],
+		"Name": "Latte Macchiato.",
+		"PaymentInfo": {
+			"ArticleNo": 12,
+			"Price": 0.0
+		}
+	},
+	{
+		"Adjustments": {
+			"CoffeeAmountAdjustment": 1.0,
+			"CoffeeWaterAdjustment": 1.0,
+			"MilkAmountAdjustment": 1.0,
+			"MilkFoamAdjustment": 1.0,
+			"MilkProductDurationAdjustment": 1.0,
+			"WaterAmountAdjustment": 1.0
+		},
+		"Category": "Latte Macchiato",
+		"CupType": "cup0",
+		"ID": "Latte Macchiato_2",
+		"IconPath": "icon_latte_macchiato.svg",
+		"Ingredients": {
+			"AutoOutletMove": {
+				"CupHeightMillimeters": 0,
+				"CupIdentifier": "cup0",
+				"Module": "AutoOutlet",
+				"Type": "IngredientParametersAutoOutlet"
+			},
+			"Coffee": {
+				"CoffeeAmountsGrams": [
+					5.0
+				],
+				"GrinderIndices": [
+					0
+				],
+				"IsqTargetExtractionTimeSeconds": 0.0,
+				"IsqTargetPuckThicknessMillimeters": 0.0,
+				"MaxExtractionTimeSeconds": -1.0,
+				"MaxValidExtractionTimeSeconds": 3600.0,
+				"MinValidExtractionTimeSeconds": -1.0,
+				"Module": "CoffeeModule",
+				"NumBrewCycles": 1,
+				"PostPressMillimeters": 0.0,
+				"PreBrewMilliliters": 0.0,
+				"PressFactor": 1.0,
+				"RelaxTimeSeconds": 0.1,
+				"TargetTemperatureDegreesCelsius": -1.0,
+				"TotalAmountMilliliters": 65.0,
+				"Type": "IngredientParametersCoffee",
+				"UseExpansionChamber": false,
+				"UseForISQ": false
+			},
+			"Milk": {
+				"AirAmounts": [
+					0.0,
+					1.0
+				],
+				"LatteMacchiatoWaitTimeIsValid": true,
+				"LatteMacchiatoWaitTimeSec": 6.0,
+				"Module": "MilkModule",
+				"ProductDurationsSeconds": [
+					4.0,
+					11.0
+				],
+				"Temperatures": [
+					70.0,
+					70.0
+				],
+				"Type": "IngredientParametersMilk"
+			}
+		},
+		"IsLocalTemperatureUsed": false,
+		"MilkQualities": [
+		],
+		"Name": "Latte Macchiato Klein",
+		"PaymentInfo": {
+			"ArticleNo": 20,
+			"Price": 0.0
+		}
+	},
+	{
+		"Adjustments": {
+			"CoffeeAmountAdjustment": 1.0,
+			"CoffeeWaterAdjustment": 1.0,
+			"MilkAmountAdjustment": 1.0,
+			"MilkFoamAdjustment": 1.0,
+			"MilkProductDurationAdjustment": 1.0,
+			"WaterAmountAdjustment": 1.0
+		},
+		"Category": "Latte Macchiato",
+		"CupType": "cup0",
+		"ID": "Latte Macchiato_3",
+		"IconPath": "icon_latte_macchiato.svg",
+		"Ingredients": {
+			"AutoOutletMove": {
+				"CupHeightMillimeters": 0,
+				"CupIdentifier": "cup0",
+				"Module": "AutoOutlet",
+				"Type": "IngredientParametersAutoOutlet"
+			},
+			"Coffee": {
+				"CoffeeAmountsGrams": [
+					8.0
+				],
+				"GrinderIndices": [
+					0
+				],
+				"IsqTargetExtractionTimeSeconds": 0.0,
+				"IsqTargetPuckThicknessMillimeters": 0.0,
+				"MaxExtractionTimeSeconds": -1.0,
+				"MaxValidExtractionTimeSeconds": 3600.0,
+				"MinValidExtractionTimeSeconds": -1.0,
+				"Module": "CoffeeModule",
+				"NumBrewCycles": 1,
+				"PostPressMillimeters": 0.0,
+				"PreBrewMilliliters": 0.0,
+				"PressFactor": 1.0,
+				"RelaxTimeSeconds": 0.1,
+				"TargetTemperatureDegreesCelsius": -1.0,
+				"TotalAmountMilliliters": 60.0,
+				"Type": "IngredientParametersCoffee",
+				"UseExpansionChamber": false,
+				"UseForISQ": false
+			},
+			"Milk": {
+				"AirAmounts": [
+					0.0,
+					1.0
+				],
+				"LatteMacchiatoWaitTimeIsValid": true,
+				"LatteMacchiatoWaitTimeSec": 5.0,
+				"Module": "MilkModule",
+				"ProductDurationsSeconds": [
+					17.0,
+					7.0
+				],
+				"Temperatures": [
+					70.0,
+					70.0
+				],
+				"Type": "IngredientParametersMilk"
+			}
+		},
+		"IsLocalTemperatureUsed": false,
+		"MilkQualities": [
+		],
+		"Name": "Latte Macchiato Groß",
+		"PaymentInfo": {
+			"ArticleNo": 21,
+			"Price": 0.0
+		}
+	},
+	{
+		"Adjustments": {
+			"CoffeeAmountAdjustment": 1.0,
+			"CoffeeWaterAdjustment": 1.0,
+			"MilkAmountAdjustment": 1.0,
+			"MilkFoamAdjustment": 1.0,
+			"MilkProductDurationAdjustment": 1.0,
+			"WaterAmountAdjustment": 1.0
+		},
+		"Category": "Latte Macchiato",
+		"CupType": "cup0",
+		"ID": "Latte Macchiato_4",
+		"IconPath": "icon_latte_macchiato.svg",
+		"Ingredients": {
+			"Coffee": {
+				"CoffeeAmountsGrams": [
+					14.0
+				],
+				"GrinderIndices": [
+					0
+				],
+				"IsqTargetExtractionTimeSeconds": 0.0,
+				"IsqTargetPuckThicknessMillimeters": 0.0,
+				"MaxExtractionTimeSeconds": -1.0,
+				"MaxValidExtractionTimeSeconds": 3600.0,
+				"MinValidExtractionTimeSeconds": -1.0,
+				"Module": "",
+				"NumBrewCycles": 1,
+				"PostPressMillimeters": 0.0,
+				"PreBrewMilliliters": 0.0,
+				"PressFactor": 1.0,
+				"RelaxTimeSeconds": 0.1,
+				"TargetTemperatureDegreesCelsius": -1.0,
+				"TotalAmountMilliliters": 100.0,
+				"Type": "IngredientParametersCoffee",
+				"UseExpansionChamber": false,
+				"UseForISQ": false
+			},
+			"IngredientParametersRinseCoffeeModule": {
+				"Module": "CoffeeModule",
+				"RinseMode": "PreHeat",
+				"Type": "IngredientParametersRinse"
+			},
+			"Milk": {
+				"AirAmounts": [
+					0.0,
+					1.0
+				],
+				"LatteMacchiatoWaitTimeIsValid": true,
+				"LatteMacchiatoWaitTimeSec": 6.0,
+				"Module": "",
+				"ProductDurationsSeconds": [
+					40.0,
+					17.0
+				],
+				"Temperatures": [
+					70.0,
+					70.0
+				],
+				"Type": "IngredientParametersMilk"
+			}
+		},
+		"IsLocalTemperatureUsed": false,
+		"MilkQualities": [
+		],
+		"Name": "2x Latte Macchiato",
+		"PaymentInfo": {
+			"ArticleNo": 26,
+			"Price": 0.0
+		}
+	},
+	{
+		"Adjustments": {
+			"CoffeeAmountAdjustment": 1.0,
+			"CoffeeWaterAdjustment": 1.0,
+			"MilkAmountAdjustment": 1.0,
+			"MilkFoamAdjustment": 1.0,
+			"MilkProductDurationAdjustment": 1.0,
+			"WaterAmountAdjustment": 1.0
+		},
+		"Category": "Milk Coffee (Time Optimized)",
+		"CupType": "cup0",
+		"ID": "Milk Coffee (Time Optimized)_1",
+		"IconPath": "icon_milk_coffee.svg",
+		"Ingredients": {
+			"AutoOutletMove": {
+				"CupHeightMillimeters": 0,
+				"CupIdentifier": "cup0",
+				"Module": "AutoOutlet",
+				"Type": "IngredientParametersAutoOutlet"
+			},
+			"Coffee": {
+				"CoffeeAmountsGrams": [
+					10.5
+				],
+				"GrinderIndices": [
+					1
+				],
+				"IsqTargetExtractionTimeSeconds": 0.0,
+				"IsqTargetPuckThicknessMillimeters": 0.0,
+				"MaxExtractionTimeSeconds": 10.0,
+				"MaxValidExtractionTimeSeconds": 3600.0,
+				"MinValidExtractionTimeSeconds": -1.0,
+				"Module": "CoffeeModule",
+				"NumBrewCycles": 1,
+				"PostPressMillimeters": 0.0,
+				"PreBrewMilliliters": 0.0,
+				"PressFactor": 1.0,
+				"RelaxTimeSeconds": 0.0,
+				"TargetTemperatureDegreesCelsius": -1.0,
+				"TotalAmountMilliliters": 100.0,
+				"Type": "IngredientParametersCoffee",
+				"UseExpansionChamber": false,
+				"UseForISQ": false
+			},
+			"Milk": {
+				"AirAmounts": [
+					0.0,
+					1.0
+				],
+				"Module": "MilkModule",
+				"ProductDurationsSeconds": [
+					4.0,
+					6.0
+				],
+				"Temperatures": [
+					70.0,
+					70.0
+				],
+				"Type": "IngredientParametersMilk"
+			}
+		},
+		"IsLocalTemperatureUsed": false,
+		"MilkQualities": [
+		],
+		"Name": "Milchkaffee ,",
+		"PaymentInfo": {
+			"ArticleNo": 17,
+			"Price": 0.0
+		}
+	},
+	{
+		"Adjustments": {
+			"CoffeeAmountAdjustment": 1.0,
+			"CoffeeWaterAdjustment": 1.0,
+			"MilkAmountAdjustment": 1.0,
+			"MilkFoamAdjustment": 1.0,
+			"MilkProductDurationAdjustment": 1.0,
+			"WaterAmountAdjustment": 1.0
+		},
+		"Category": "Milk Coffee",
+		"CupType": "cup0",
+		"ID": "Milk Coffee_1",
+		"IconPath": "icon_milk_coffee.svg",
+		"Ingredients": {
+			"AutoOutletMove": {
+				"CupHeightMillimeters": 0,
+				"CupIdentifier": "cup0",
+				"Module": "AutoOutlet",
+				"Type": "IngredientParametersAutoOutlet"
+			},
+			"Coffee": {
+				"CoffeeAmountsGrams": [
+					10.0
+				],
+				"GrinderIndices": [
+					1
+				],
+				"IsqTargetExtractionTimeSeconds": 0.0,
+				"IsqTargetPuckThicknessMillimeters": 0.0,
+				"MaxExtractionTimeSeconds": -1.0,
+				"MaxValidExtractionTimeSeconds": 3600.0,
+				"MinValidExtractionTimeSeconds": -1.0,
+				"Module": "CoffeeModule",
+				"NumBrewCycles": 1,
+				"PostPressMillimeters": 0.0,
+				"PreBrewMilliliters": 0.0,
+				"PressFactor": 1.0,
+				"RelaxTimeSeconds": 0.1,
+				"TargetTemperatureDegreesCelsius": -1.0,
+				"TotalAmountMilliliters": 110.0,
+				"Type": "IngredientParametersCoffee",
+				"UseExpansionChamber": false,
+				"UseForISQ": false
+			},
+			"Milk": {
+				"AirAmounts": [
+					0.0,
+					1.0
+				],
+				"Module": "MilkModule",
+				"ProductDurationsSeconds": [
+					8.0,
+					6.0
+				],
+				"Temperatures": [
+					70.0,
+					70.0
+				],
+				"Type": "IngredientParametersMilk"
+			}
+		},
+		"IsLocalTemperatureUsed": false,
+		"MilkQualities": [
+		],
+		"Name": "Milchkaffee Klein",
+		"PaymentInfo": {
+			"ArticleNo": 13,
+			"Price": 0.0
+		}
+	},
+	{
+		"Adjustments": {
+			"CoffeeAmountAdjustment": 1.0,
+			"CoffeeWaterAdjustment": 1.0,
+			"MilkAmountAdjustment": 1.0,
+			"MilkFoamAdjustment": 1.0,
+			"MilkProductDurationAdjustment": 1.0,
+			"WaterAmountAdjustment": 1.0
+		},
+		"Category": "Milk Coffee",
+		"CupType": "cup0",
+		"ID": "Milk Coffee_2",
+		"IconPath": "icon_milk_coffee.svg",
+		"Ingredients": {
+			"AutoOutletMove": {
+				"CupHeightMillimeters": 0,
+				"CupIdentifier": "cup0",
+				"Module": "AutoOutlet",
+				"Type": "IngredientParametersAutoOutlet"
+			},
+			"Coffee": {
+				"CoffeeAmountsGrams": [
+					11.0
+				],
+				"GrinderIndices": [
+					1
+				],
+				"IsqTargetExtractionTimeSeconds": 0.0,
+				"IsqTargetPuckThicknessMillimeters": 0.0,
+				"MaxExtractionTimeSeconds": -1.0,
+				"MaxValidExtractionTimeSeconds": 3600.0,
+				"MinValidExtractionTimeSeconds": -1.0,
+				"Module": "CoffeeModule",
+				"NumBrewCycles": 1,
+				"PostPressMillimeters": 0.0,
+				"PreBrewMilliliters": 0.0,
+				"PressFactor": 1.0,
+				"RelaxTimeSeconds": 0.1,
+				"TargetTemperatureDegreesCelsius": -1.0,
+				"TotalAmountMilliliters": 140.0,
+				"Type": "IngredientParametersCoffee",
+				"UseExpansionChamber": false,
+				"UseForISQ": false
+			},
+			"Milk": {
+				"AirAmounts": [
+					0.0,
+					1.0
+				],
+				"Module": "MilkModule",
+				"ProductDurationsSeconds": [
+					12.0,
+					6.0
+				],
+				"Temperatures": [
+					70.0,
+					70.0
+				],
+				"Type": "IngredientParametersMilk"
+			}
+		},
+		"IsLocalTemperatureUsed": false,
+		"MilkQualities": [
+		],
+		"Name": "Milchkaffee Groß",
+		"PaymentInfo": {
+			"ArticleNo": 18,
+			"Price": 0.0
+		}
+	},
+	{
+		"Adjustments": {
+			"CoffeeAmountAdjustment": 1.0,
+			"CoffeeWaterAdjustment": 1.0,
+			"MilkAmountAdjustment": 1.0,
+			"MilkFoamAdjustment": 1.0,
+			"MilkProductDurationAdjustment": 1.0,
+			"WaterAmountAdjustment": 1.0
+		},
+		"Category": "Milk Foam",
+		"CupType": "cup0",
+		"ID": "Milk Foam_1",
+		"IconPath": "icon_hot_foam.svg",
+		"Ingredients": {
+			"AutoOutletMove": {
+				"CupHeightMillimeters": 0,
+				"CupIdentifier": "cup0",
+				"Module": "AutoOutlet",
+				"Type": "IngredientParametersAutoOutlet"
+			},
+			"Milk": {
+				"AirAmounts": [
+					0.0,
+					1.0
+				],
+				"Module": "MilkModule",
+				"ProductDurationsSeconds": [
+					0.0,
+					6.8
+				],
+				"Temperatures": [
+					70.0,
+					70.0
+				],
+				"Type": "IngredientParametersMilk"
+			}
+		},
+		"IsLocalTemperatureUsed": false,
+		"MilkQualities": [
+		],
+		"Name": "Milchschaum Portion",
+		"PaymentInfo": {
+			"ArticleNo": 15,
+			"Price": 0.0
+		}
+	},
+	{
+		"Adjustments": {
+			"CoffeeAmountAdjustment": 1.0,
+			"CoffeeWaterAdjustment": 1.0,
+			"MilkAmountAdjustment": 1.0,
+			"MilkFoamAdjustment": 1.0,
+			"MilkProductDurationAdjustment": 1.0,
+			"WaterAmountAdjustment": 1.0
+		},
+		"Category": "Milk",
+		"CupType": "cup0",
+		"ID": "Milk_1",
+		"IconPath": "icon_hot_milk.svg",
+		"Ingredients": {
+			"Milk": {
+				"AirAmounts": [
+					0.0,
+					1.0
+				],
+				"Module": "",
+				"ProductDurationsSeconds": [
+					16.0,
+					0.0
+				],
+				"Temperatures": [
+					70.0,
+					70.0
+				],
+				"Type": "IngredientParametersMilk"
+			}
+		},
+		"IsLocalTemperatureUsed": false,
+		"MilkQualities": [
+		],
+		"Name": "Milch",
+		"PaymentInfo": {
+			"ArticleNo": 10,
+			"Price": 0.0
+		}
+	},
+	{
+		"Adjustments": {
+			"CoffeeAmountAdjustment": 1.0,
+			"CoffeeWaterAdjustment": 1.0,
+			"MilkAmountAdjustment": 1.0,
+			"MilkFoamAdjustment": 1.0,
+			"MilkProductDurationAdjustment": 1.0,
+			"WaterAmountAdjustment": 1.0
+		},
+		"Category": "Tea",
+		"CupType": "cup0",
+		"ID": "Tea_1",
+		"IconPath": "icon_tea.svg",
+		"Ingredients": {
+			"AutoOutletMove": {
+				"CupHeightMillimeters": 0,
+				"CupIdentifier": "cup0",
+				"Module": "AutoOutlet",
+				"Type": "IngredientParametersAutoOutlet"
+			},
+			"Water": {
+				"AmountMilliliters": 250.0,
+				"Module": "TeaModule",
+				"TargetTemperatureDegreesCelsius": -1.0,
+				"Type": "IngredientParametersAmount"
+			}
+		},
+		"IsLocalTemperatureUsed": false,
+		"MilkQualities": [
+		],
+		"Name": "Tee.",
+		"PaymentInfo": {
+			"ArticleNo": 19,
+			"Price": 0.0
+		}
+	},
+	{
+		"Adjustments": {
+			"CoffeeAmountAdjustment": 1.0,
+			"CoffeeWaterAdjustment": 1.0,
+			"MilkAmountAdjustment": 1.0,
+			"MilkFoamAdjustment": 1.0,
+			"MilkProductDurationAdjustment": 1.0,
+			"WaterAmountAdjustment": 1.0
+		},
+		"Category": "Tea",
+		"CupType": "cup0",
+		"ID": "Tea_2",
+		"IconPath": "icon_tea.svg",
+		"Ingredients": {
+			"AutoOutletMove": {
+				"CupHeightMillimeters": 0,
+				"CupIdentifier": "cup0",
+				"Module": "AutoOutlet",
+				"Type": "IngredientParametersAutoOutlet"
+			},
+			"Water": {
+				"AmountMilliliters": 50.0,
+				"Module": "TeaModule",
+				"TargetTemperatureDegreesCelsius": -1.0,
+				"Type": "IngredientParametersAmount"
+			}
+		},
+		"IsLocalTemperatureUsed": false,
+		"MilkQualities": [
+		],
+		"Name": "Vorwaermen",
+		"PaymentInfo": {
+			"ArticleNo": 9,
+			"Price": 0.0
+		}
+	},
+	{
+		"Adjustments": {
+			"CoffeeAmountAdjustment": 1.0,
+			"CoffeeWaterAdjustment": 1.0,
+			"MilkAmountAdjustment": 1.0,
+			"MilkFoamAdjustment": 1.0,
+			"MilkProductDurationAdjustment": 1.0,
+			"WaterAmountAdjustment": 1.0
+		},
+		"Category": "Tea",
+		"CupType": "cup0",
+		"ID": "Tea_3",
+		"IconPath": "icon_tea.svg",
+		"Ingredients": {
+			"AutoOutletMove": {
+				"CupHeightMillimeters": 0,
+				"CupIdentifier": "cup0",
+				"Module": "AutoOutlet",
+				"Type": "IngredientParametersAutoOutlet"
+			},
+			"Water": {
+				"AmountMilliliters": 190.0,
+				"Module": "TeaModule",
+				"TargetTemperatureDegreesCelsius": -1.0,
+				"Type": "IngredientParametersAmount"
+			}
+		},
+		"IsLocalTemperatureUsed": false,
+		"MilkQualities": [
+		],
+		"Name": "Tee Klein",
+		"PaymentInfo": {
+			"ArticleNo": 22,
+			"Price": 0.0
+		}
+	},
+	{
+		"Adjustments": {
+			"CoffeeAmountAdjustment": 1.0,
+			"CoffeeWaterAdjustment": 1.0,
+			"MilkAmountAdjustment": 1.0,
+			"MilkFoamAdjustment": 1.0,
+			"MilkProductDurationAdjustment": 1.0,
+			"WaterAmountAdjustment": 1.0
+		},
+		"Category": "Tea",
+		"CupType": "cup0",
+		"ID": "Tea_4",
+		"IconPath": "icon_tea.svg",
+		"Ingredients": {
+			"AutoOutletMove": {
+				"CupHeightMillimeters": 0,
+				"CupIdentifier": "cup0",
+				"Module": "AutoOutlet",
+				"Type": "IngredientParametersAutoOutlet"
+			},
+			"Water": {
+				"AmountMilliliters": 280.0,
+				"Module": "TeaModule",
+				"TargetTemperatureDegreesCelsius": -1.0,
+				"Type": "IngredientParametersAmount"
+			}
+		},
+		"IsLocalTemperatureUsed": false,
+		"MilkQualities": [
+		],
+		"Name": "Tee Groß",
+		"PaymentInfo": {
+			"ArticleNo": 23,
+			"Price": 0.0
+		}
+	}
+]

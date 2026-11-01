@@ -1,0 +1,18 @@
+{
+	"Products": {
+		"children": [
+			{
+				"type": "Empty"
+			},
+			{
+				"type": "Empty"
+			},
+			{
+				"type": "Empty"
+			}
+		],
+		"iconPath": "",
+		"label": "HEAD",
+		"type": "Group"
+	}
+}

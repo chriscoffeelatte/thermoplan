@@ -1,0 +1,54 @@
+{
+	"CupTypes": [
+		{
+			"height": 0.0,
+			"icon": "icon_cup_size_s",
+			"id": "cup0",
+			"label": "Small"
+		},
+		{
+			"height": 0.0,
+			"icon": "icon_cup_size_m",
+			"id": "cup1",
+			"label": "Medium"
+		},
+		{
+			"height": 0.0,
+			"icon": "icon_cup_size_l",
+			"id": "cup2",
+			"label": "Large"
+		}
+	],
+	"FlavorLabels": [
+	],
+	"GrinderTypes": [
+		{
+			"beanname": "",
+			"label": "1 Left"
+		},
+		{
+			"beanname": "",
+			"label": "2 Right"
+		}
+	],
+	"IsqTypes": [
+		{
+			"isqTargetExtractionTimeSeconds": 22.0,
+			"isqTargetPuckThicknessMillimeter": 10.5,
+			"productId": ""
+		},
+		{
+			"isqTargetExtractionTimeSeconds": 22.0,
+			"isqTargetPuckThicknessMillimeter": 10.5,
+			"productId": ""
+		}
+	],
+	"MilkQualities": [
+	],
+	"MilkTypes": [
+		{
+			"label": "Milk %1",
+			"milkname": ""
+		}
+	]
+}

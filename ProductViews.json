@@ -1,0 +1,332 @@
+[
+	{
+		"Active": true,
+		"Layout": {
+			"Columns": 4,
+			"OrderMode": "",
+			"Rows": 3
+		},
+		"ProductView": {
+			"children": [
+				{
+					"label": "Espresso Macchiato_1",
+					"productId": "Espresso Macchiato_1",
+					"type": "Product"
+				},
+				{
+					"type": "Empty"
+				},
+				{
+					"type": "Empty"
+				},
+				{
+					"label": "Espresso_1",
+					"productId": "Espresso_1",
+					"type": "Product"
+				},
+				{
+					"label": "Cappuccino (Time Optimized)_2",
+					"productId": "Cappuccino (Time Optimized)_2",
+					"type": "Product"
+				},
+				{
+					"label": "Latte Macchiato_1",
+					"productId": "Latte Macchiato_1",
+					"type": "Product"
+				},
+				{
+					"label": "Coffee_2",
+					"productId": "Coffee_2",
+					"type": "Product"
+				},
+				{
+					"label": "Milk Coffee (Time Optimized)_1",
+					"productId": "Milk Coffee (Time Optimized)_1",
+					"type": "Product"
+				},
+				{
+					"label": "Milk Foam_1",
+					"productId": "Milk Foam_1",
+					"type": "Product"
+				},
+				{
+					"type": "Empty"
+				},
+				{
+					"type": "Empty"
+				},
+				{
+					"type": "Empty"
+				},
+				{
+					"type": "Empty"
+				},
+				{
+					"type": "Empty"
+				},
+				{
+					"type": "Empty"
+				},
+				{
+					"type": "Empty"
+				},
+				{
+					"type": "Empty"
+				},
+				{
+					"type": "Empty"
+				},
+				{
+					"type": "Empty"
+				},
+				{
+					"type": "Empty"
+				},
+				{
+					"type": "Empty"
+				},
+				{
+					"type": "Empty"
+				},
+				{
+					"type": "Empty"
+				},
+				{
+					"type": "Empty"
+				},
+				{
+					"type": "Empty"
+				},
+				{
+					"type": "Empty"
+				},
+				{
+					"type": "Empty"
+				},
+				{
+					"label": "Espresso_2",
+					"productId": "Espresso_2",
+					"type": "Product"
+				},
+				{
+					"type": "Empty"
+				},
+				{
+					"label": "Latte Macchiato_4",
+					"productId": "Latte Macchiato_4",
+					"type": "Product"
+				},
+				{
+					"type": "Empty"
+				},
+				{
+					"type": "Empty"
+				},
+				{
+					"type": "Empty"
+				},
+				{
+					"type": "Empty"
+				},
+				{
+					"type": "Empty"
+				},
+				{
+					"type": "Empty"
+				}
+			],
+			"iconPath": "",
+			"label": "",
+			"type": "Group"
+		},
+		"User": "SelfService",
+		"ViewName": "Slow Down SB"
+	},
+	{
+		"Active": false,
+		"Layout": {
+			"Columns": 3,
+			"OrderMode": "queued",
+			"Rows": 3
+		},
+		"ProductView": {
+			"children": [
+				{
+					"label": "Espresso_1",
+					"productId": "Espresso_1",
+					"type": "Product"
+				},
+				{
+					"type": "Empty"
+				},
+				{
+					"type": "Empty"
+				},
+				{
+					"label": "Espresso_2",
+					"productId": "Espresso_2",
+					"type": "Product"
+				},
+				{
+					"label": "Milk Coffee (Time Optimized)_1",
+					"productId": "Milk Coffee (Time Optimized)_1",
+					"type": "Product"
+				},
+				{
+					"label": "Tea_1",
+					"productId": "Tea_1",
+					"type": "Product"
+				},
+				{
+					"label": "Coffee_2",
+					"productId": "Coffee_2",
+					"type": "Product"
+				},
+				{
+					"label": "Latte Macchiato_1",
+					"productId": "Latte Macchiato_1",
+					"type": "Product"
+				},
+				{
+					"label": "Tea_2",
+					"productId": "Tea_2",
+					"type": "Product"
+				},
+				{
+					"type": "Empty"
+				},
+				{
+					"type": "Empty"
+				},
+				{
+					"type": "Empty"
+				},
+				{
+					"type": "Empty"
+				},
+				{
+					"type": "Empty"
+				},
+				{
+					"type": "Empty"
+				},
+				{
+					"type": "Empty"
+				},
+				{
+					"label": "Milk Foam_1",
+					"productId": "Milk Foam_1",
+					"type": "Product"
+				},
+				{
+					"type": "Empty"
+				}
+			],
+			"iconPath": "",
+			"label": "",
+			"type": "Group"
+		},
+		"User": "Barista",
+		"ViewName": "Default"
+	},
+	{
+		"Active": true,
+		"Layout": {
+			"Columns": 3,
+			"OrderMode": "",
+			"Rows": 3
+		},
+		"ProductView": {
+			"children": [
+				{
+					"children": [
+						{
+							"label": "Espresso_1",
+							"productId": "Espresso_1",
+							"type": "Product"
+						},
+						{
+							"label": "Espresso_2",
+							"productId": "Espresso_2",
+							"type": "Product"
+						}
+					],
+					"iconPath": "icon_ristretto.svg",
+					"label": "Espresso",
+					"type": "Group"
+				},
+				{
+					"children": [
+						{
+							"label": "Cappuccino (Time Optimized)_2",
+							"productId": "Cappuccino (Time Optimized)_2",
+							"type": "Product"
+						}
+					],
+					"iconPath": "icon_cappuccino.svg",
+					"label": "Cappuccino",
+					"type": "Group"
+				},
+				{
+					"label": "Milk Foam_1",
+					"productId": "Milk Foam_1",
+					"type": "Product"
+				},
+				{
+					"children": [
+						{
+							"label": "Espresso Macchiato_1",
+							"productId": "Espresso Macchiato_1",
+							"type": "Product"
+						}
+					],
+					"iconPath": "icon_espresso_macchiato.svg",
+					"label": "Espresso Macciato",
+					"type": "Group"
+				},
+				{
+					"children": [
+						{
+							"label": "Milk Coffee (Time Optimized)_1",
+							"productId": "Milk Coffee (Time Optimized)_1",
+							"type": "Product"
+						}
+					],
+					"iconPath": "icon_milk_coffee.svg",
+					"label": "Milchkaffee",
+					"type": "Group"
+				},
+				{
+					"label": "Milk_1",
+					"productId": "Milk_1",
+					"type": "Product"
+				},
+				{
+					"children": [
+						{
+							"label": "Coffee_2",
+							"productId": "Coffee_2",
+							"type": "Product"
+						}
+					],
+					"iconPath": "icon_coffee.svg",
+					"label": "Kaffee Crema",
+					"type": "Group"
+				},
+				{
+					"label": "Latte Macchiato_1",
+					"productId": "Latte Macchiato_1",
+					"type": "Product"
+				},
+				{
+					"type": "Empty"
+				}
+			],
+			"iconPath": "",
+			"label": "",
+			"type": "Group"
+		},
+		"User": "Barista",
+		"ViewName": "Slow Down Baykery"
+	}
+]
