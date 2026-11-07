@@ -27,3 +27,36 @@ class VariantConfig:
 
 SIZE_LABELS = {"cup0": "Klein", "cup1": "Normal", "cup2": "Groß"}
 SIZE_SCALES = {"cup0": 0.7, "cup1": 1.0, "cup2": 1.3}
+
+
+@dataclass
+class ViewItem:
+    type: str
+    label: str = ""
+    productId: str = ""
+    iconPath: str = ""
+    selectedIndex: int = 0
+    children: list = field(default_factory=list)
+
+    @classmethod
+    def from_dict(cls, d):
+        if d["type"] == "Group":
+            return cls(
+                type="Group", label=d.get("label", ""),
+                iconPath=d.get("iconPath", ""),
+                selectedIndex=d.get("selectedIndex", 0),
+                children=[cls.from_dict(c) for c in d.get("children", [])]
+            )
+        return cls(type=d["type"], label=d.get("label", ""),
+                   productId=d.get("productId", ""))
+
+    def to_dict(self):
+        if self.type == "Group":
+            return {
+                "type": "Group", "label": self.label,
+                "iconPath": self.iconPath, "selectedIndex": self.selectedIndex,
+                "children": [c.to_dict() for c in self.children]
+            }
+        if self.type == "Product":
+            return {"type": "Product", "label": self.label, "productId": self.productId}
+        return {"type": "Empty"}
