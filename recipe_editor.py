@@ -1,7 +1,7 @@
 from PySide6.QtWidgets import (
     QDialog, QVBoxLayout, QHBoxLayout, QFormLayout, QGroupBox,
     QLabel, QLineEdit, QDoubleSpinBox, QSpinBox, QComboBox,
-    QCheckBox, QPushButton, QTabWidget, QMessageBox, QGridLayout,
+    QCheckBox, QPushButton, QTabWidget, QMessageBox, QGridLayout, QWidget
 )
 from PySide6.QtCore import Qt
 
@@ -110,6 +110,7 @@ class RecipeEditor(QDialog):
         self.use_isq.setChecked(coffee.get("UseForISQ", False))
         form.addRow(self.use_isq)
 
+        w.setLayout(QVBoxLayout())
         w.layout().addLayout(form)
         w.layout().addStretch()
         return w
@@ -155,6 +156,7 @@ class RecipeEditor(QDialog):
         self.lm_wait_sec = self._dspin(0, 30, 0.5, milk.get("LatteMacchiatoWaitTimeSec", 0))
         form.addRow("Wartezeit (s):", self.lm_wait_sec)
 
+        w.setLayout(QVBoxLayout())
         w.layout().addLayout(form)
         w.layout().addStretch()
         return w
@@ -179,6 +181,7 @@ class RecipeEditor(QDialog):
         self.water_module_combo.setCurrentText(water.get("Module", "TeaModule"))
         form.addRow("Modul:", self.water_module_combo)
 
+        w.setLayout(QVBoxLayout())
         w.layout().addLayout(form)
         w.layout().addStretch()
         return w
@@ -238,6 +241,7 @@ class RecipeEditor(QDialog):
         self.adj_water = self._dspin(0.5, 1.5, 0.05, adj.get("WaterAmountAdjustment", 1.0))
         form.addRow("Wasser-Menge:", self.adj_water)
 
+        w.setLayout(QVBoxLayout())
         w.layout().addLayout(form)
         w.layout().addStretch()
         return w
